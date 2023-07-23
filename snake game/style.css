@@ -1,0 +1,39 @@
+body {
+    background: #2C3E50;
+    background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);
+    background: linear-gradient(to right, #FD746C, #2C3E50);
+
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard {
+    border: 3px solid;
+}
+
+#scoreText {
+    font-family: "Permanent Marker", cursive;
+    font-size: 80px;
+}
+
+#resetBtn {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#resetBtn:hover {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
+   @keyframes slidernbw {
+    to {
+     background-position: 20vw;
+    }
+   }
